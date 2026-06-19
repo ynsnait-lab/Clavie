@@ -687,9 +687,9 @@ footer{background:#211d19;color:#cdbfab;padding:4rem 0 2rem}
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21l1.6-5A9 9 0 1 1 8 19.4z"/><path d="M8.5 9.5c0 4 3 6.5 6 6.5.8 0 1.5-.6 1.5-1.2 0-.3-2-1.3-2.3-1.3-.5 0-.7.8-1.1.8-.8 0-2.4-1.6-2.4-2.4 0-.4.8-.6.8-1.1 0-.3-1-2.3-1.3-2.3-.6 0-1.2.7-1.2 1.5z"/></svg>
               <span><b>WhatsApp</b><small>06 23 28 69 39</small></span>
             </a>
-            <a class="channel" href="mailto:younes.nait.b@gmail.com">
+            <a class="channel" href="mailto:clavieevents@gmail.com">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
-              <span><b>Email</b><small>younes.nait.b@gmail.com</small></span>
+              <span><b>Email</b><small>clavieevents@gmail.com</small></span>
             </a>
             <a class="channel" href="https://www.instagram.com/clavieevents" target="_blank" rel="noopener">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
@@ -726,7 +726,7 @@ footer{background:#211d19;color:#cdbfab;padding:4rem 0 2rem}
       <div class="socials">
         <a href="https://www.instagram.com/clavieevents" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
         <a href="https://www.facebook.com/share/18KqxPGpEL/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v6h4v-6h3l1-4h-4V8a1 1 0 0 1 1-1z"/></svg></a>
-        <a href="mailto:younes.nait.b@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+        <a href="mailto:clavieevents@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
       </div>
     </div>
     <div class="foot-col">
@@ -740,7 +740,7 @@ footer{background:#211d19;color:#cdbfab;padding:4rem 0 2rem}
     <div class="foot-col">
       <h5>Contact</h5>
       <a href="tel:+33623286939">06 23 28 69 39</a>
-      <a href="mailto:younes.nait.b@gmail.com">younes.nait.b@gmail.com</a>
+      <a href="mailto:clavieevents@gmail.com">clavieevents@gmail.com</a>
       <a href="https://www.instagram.com/clavieevents" target="_blank" rel="noopener">@clavie.events</a>
       <a href="#contact">Boisseron (34) · Hérault · Gard · Occitanie</a>
     </div>
@@ -830,7 +830,7 @@ form.addEventListener('submit',async e=>{
     const get=n=>(form.querySelector('[name="'+n+'"]')?.value||'').trim();
     const body=`Nom : ${get('nom')}%0D%0AEmail : ${get('email')}%0D%0ATéléphone : ${get('telephone')}%0D%0AÉvénement : ${get('type_evenement')}%0D%0ADate : ${get('date_souhaitee')}%0D%0ALieu : ${get('lieu')}%0D%0A%0D%0A${get('message')}`;
     const subject=encodeURIComponent(subjectField.value||'Demande — Clavie Events');
-    window.location.href=`mailto:younes.nait.b@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href=`mailto:clavieevents@gmail.com?subject=${subject}&body=${body}`;
     return;
   }
   // Envoi AJAX vers Formspree pour rester sur la page

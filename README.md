@@ -36,7 +36,7 @@ Site **100 % statique** (HTML/CSS/JS), prêt à héberger sur **GitHub Pages**.
 ## ✏️ À compléter / vérifier
 
 ### 1. Email
-Le contact email est **younes.nait.b@gmail.com** (temporaire). Quand Clavie a un email pro,
+Le contact email est **clavieevents@gmail.com** (temporaire). Quand Clavie a un email pro,
 fais un rechercher/remplacer dans `index.html`.
 
 ### 2. Pseudo Instagram
