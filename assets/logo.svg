@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 740" width="600" height="740" role="img" aria-label="Clavie Events — Créatrice d'émotions">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&amp;family=Cormorant+Garamond:wght@500;600;700&amp;family=Great+Vibes&amp;display=swap');
+      .mono-c{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;fill:#2A2521;}
+      .mono-e{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;fill:#A9784F;}
+      .brand{font-family:'Cinzel','Times New Roman',serif;fill:#2A2521;}
+      .events{font-family:'Cinzel','Times New Roman',serif;fill:#A9784F;}
+      .script{font-family:'Great Vibes',cursive;fill:#A9784F;}
+    </style>
+    <path id="leaf" d="M0 0 C 6 -8 6 -19 0 -28 C -6 -19 -6 -8 0 0 Z"/>
+  </defs>
+
+  <!-- Ring -->
+  <circle cx="300" cy="250" r="170" fill="none" stroke="#B98C5E" stroke-width="2.5"/>
+
+  <!-- Botanical sprig (lower-left) -->
+  <g fill="#B98C5E">
+    <path d="M256 388 Q 205 362 176 296" fill="none" stroke="#B98C5E" stroke-width="2" stroke-linecap="round"/>
+    <use href="#leaf" transform="translate(248 378) rotate(48) scale(1.05)"/>
+    <use href="#leaf" transform="translate(248 378) rotate(150) scale(0.8)"/>
+    <use href="#leaf" transform="translate(230 356) rotate(38) scale(1.15)"/>
+    <use href="#leaf" transform="translate(230 356) rotate(142) scale(0.85)"/>
+    <use href="#leaf" transform="translate(212 332) rotate(26) scale(1.15)"/>
+    <use href="#leaf" transform="translate(212 332) rotate(132) scale(0.85)"/>
+    <use href="#leaf" transform="translate(196 308) rotate(14) scale(1.0)"/>
+    <use href="#leaf" transform="translate(184 290) rotate(4) scale(0.9)"/>
+  </g>
+
+  <!-- Monogram CE -->
+  <text class="mono-c" x="266" y="338" text-anchor="middle" font-size="245">C</text>
+  <text class="mono-e" x="342" y="334" text-anchor="middle" font-size="208">E</text>
+
+  <!-- Wordmark -->
+  <text class="brand" x="300" y="545" text-anchor="middle" font-size="84" letter-spacing="16">CLAVIE</text>
+  <line x1="150" y1="582" x2="214" y2="582" stroke="#B98C5E" stroke-width="1.4"/>
+  <text class="events" x="300" y="592" text-anchor="middle" font-size="30" letter-spacing="18">EVENTS</text>
+  <line x1="386" y1="582" x2="450" y2="582" stroke="#B98C5E" stroke-width="1.4"/>
+  <text class="script" x="300" y="662" text-anchor="middle" font-size="58">Créatrice d'émotions</text>
+</svg>
